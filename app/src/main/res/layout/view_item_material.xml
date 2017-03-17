@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp">
+        <TextView
+            android:id="@+id/item_material_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="用料： 例如五花肉"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColorHint="@color/lightgray"
+            android:layout_height="match_parent"/>
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:background="?android:attr/listDivider"/>
+        <TextView
+            android:id="@+id/item_material_num"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="用量： 例如250g"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColorHint="@color/lightgray"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="?android:attr/listDivider"/>
+</LinearLayout>

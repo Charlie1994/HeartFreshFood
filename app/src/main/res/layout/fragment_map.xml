@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <com.amap.api.maps2d.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Spinner
+        android:id="@+id/fragment_map_selector"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        style="@android:style/Widget.Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.charles.heartfreshfood.wiget.MapLocationView
+        android:id="@+id/fragment_map_detailwindow"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

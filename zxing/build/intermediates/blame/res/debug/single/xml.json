@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/src/main/res/xml/preferences.xml"
+    }
+]

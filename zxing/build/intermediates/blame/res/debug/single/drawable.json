@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/build/intermediates/res/merged/debug/drawable/selector_main_button.xml",
+        "source": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/src/main/res/drawable/selector_main_button.xml"
+    },
+    {
+        "merged": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/build/intermediates/res/merged/debug/drawable/shape_main_title.xml",
+        "source": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/src/main/res/drawable/shape_main_title.xml"
+    },
+    {
+        "merged": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/build/intermediates/res/merged/debug/drawable/shape_main_imageview.xml",
+        "source": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/src/main/res/drawable/shape_main_imageview.xml"
+    },
+    {
+        "merged": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/build/intermediates/res/merged/debug/drawable/shape_main_button.xml",
+        "source": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/src/main/res/drawable/shape_main_button.xml"
+    },
+    {
+        "merged": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/build/intermediates/res/merged/debug/drawable/shape_main_title.xml",
+        "source": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/src/main/res/drawable/shape_main_title.xml"
+    },
+    {
+        "merged": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/build/intermediates/res/merged/debug/drawable/selector_main_button.xml",
+        "source": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/src/main/res/drawable/selector_main_button.xml"
+    },
+    {
+        "merged": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/build/intermediates/res/merged/debug/drawable/shape_main_imageview.xml",
+        "source": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/src/main/res/drawable/shape_main_imageview.xml"
+    },
+    {
+        "merged": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/build/intermediates/res/merged/debug/drawable/shape_main_edit.xml",
+        "source": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/src/main/res/drawable/shape_main_edit.xml"
+    },
+    {
+        "merged": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/build/intermediates/res/merged/debug/drawable/shape_main_button.xml",
+        "source": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/src/main/res/drawable/shape_main_button.xml"
+    },
+    {
+        "merged": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/build/intermediates/res/merged/debug/drawable/shape_main_edit.xml",
+        "source": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/src/main/res/drawable/shape_main_edit.xml"
+    },
+    {
+        "merged": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/build/intermediates/res/merged/debug/drawable/selector_capture_back.xml",
+        "source": "/Users/Charles/Documents/安卓开发相关/ZXingDemo1/app/src/main/res/drawable/selector_capture_back.xml"
+    },
+    {
+        "merged": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/build/intermediates/res/merged/debug/drawable/selector_capture_back.xml",
+        "source": "/Users/Charles/AndroidStudioProjects/HeartFreshFood/zxing/src/main/res/drawable/selector_capture_back.xml"
+    }
+]

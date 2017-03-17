@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mediumtgray"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_banner_head"/>
+    <EditText
+        android:id="@+id/create_recipe_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:hint="菜谱名称"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/create_recipe_difficulty"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Spinner"/>
+        <Spinner
+            android:id="@+id/create_recipe_time"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Spinner"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/create_recipe_material"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/create_recipe_materialist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/create_recipe_addmaterial"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="@color/orange"
+            android:background="@color/white"
+            android:layout_height="30dp"
+            android:paddingStart="8dp"
+            android:gravity="center_vertical"
+            android:text="+ 添加一种材料"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/create_recipe_introduction"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:hint="菜谱简介"/>
+
+</LinearLayout>

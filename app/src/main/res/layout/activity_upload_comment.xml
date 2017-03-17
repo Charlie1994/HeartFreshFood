@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/view_banner_head"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColorHint="@color/lightgray"
+            android:hint="写下你的评论（不少于5个字）"
+            android:inputType="textMultiLine"
+            android:gravity="left|top"
+            android:minLines="6"
+            android:id="@+id/activity_upload_post_content"/>
+
+        <ImageView
+            android:id="@+id/activity_upload_post_img"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/activity_upload_post_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/login_btn_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text="我要添加图片"
+            android:textSize="18sp" />
+        <FrameLayout
+            android:id="@+id/activity_upload_post_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

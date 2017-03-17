@@ -1,0 +1,308 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--搜索框布局-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f9f9f9"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/fragment_home_code"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="-10dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/icon_home_code"/>
+        <TextView
+            android:id="@+id/home_location_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/fragment_home_code"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/home_location_img"/>
+        <ImageView
+            android:id="@+id/fragment_home_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/icon_home_msg"/>
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_home_refresh">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--首页图片播放器布局-->
+            <com.charles.heartfreshfood.wiget.PictureRecycleView
+                android:id="@+id/home_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"/>
+
+            <!--首页导航按钮-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic1" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="每日推荐"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic2" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="团购" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic3" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="秒杀" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic4" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="邀请好友" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--second-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic5" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="农场列表"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic6" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="新用户专享" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic7" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="新品推荐" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_btn8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/home_btn_pic8" />
+
+                    <TextView
+                        android:id="@+id/home_btn_text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="农场活动" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/fragment_home_vendorbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/fragment_home_allvendor_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_home_bar"
+                    android:layout_alignParentEnd="true"/>
+                <TextView
+                    android:text="所有商家"
+                    android:textSize="18sp"
+                    android:layout_gravity="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/fragment_home_allvendor_img"/>
+            </RelativeLayout>
+            <!--推荐商家 -->
+            <ListView
+                android:id="@+id/fragment_home_vendorlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+            <RelativeLayout
+                android:id="@+id/fragment_home_productbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/fragment_home_allproduct_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_home_bar"
+                    android:layout_alignParentEnd="true"/>
+                <TextView
+                    android:text="所有产品"
+                    android:textSize="18sp"
+                    android:layout_gravity="end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/fragment_home_allproduct_img"/>
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/fragment_home_productlist"
+                android:layout_marginStart="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
